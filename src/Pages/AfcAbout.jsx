@@ -66,7 +66,7 @@ const AfcAbout = ({ openCloseVideo, setOpenCloseVideo, setVideoSrc }) => {
                                 onClick={() => {
                                     setOpenCloseVideo(!openCloseVideo);
                                     setVideoSrc(
-                                        "/Videos/Ajax x adidas - Kit launch.mp4"
+                                        "/Videos/Ajax-x-adidas-Kit-launch.mp4"
                                     );
                                 }}
                                 className="w-full overflow-hidden rounded-xl md:rounded-2xl aspect-video mt-8 sm:mt-10 md:mt-16 lg:mt-26 relative group cursor-pointer"

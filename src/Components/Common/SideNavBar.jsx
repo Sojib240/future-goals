@@ -26,7 +26,7 @@ const SideNavBar = ({ menuOpen, setMenuOpen, toggleMenu }) => {
                     <div className="flex justify-between flex-col gap-10 h-full">
                         <div className="top block sm:hidden">
                             <div className="w-[75px] flex items-center gap-2">
-                                <div className="w-[30px] relative">
+                                <div className="w-[30px] relative cursor-pointer">
                                     <img
                                         className="w-full"
                                         src="/Images/Icons/en.svg"
@@ -34,13 +34,12 @@ const SideNavBar = ({ menuOpen, setMenuOpen, toggleMenu }) => {
                                     />
                                     <span className="block w-1.5 h-1.5 bg-[#1E1E1E] absolute -bottom-3.5 rounded-full left-1/2 -translate-x-1/2" />
                                 </div>
-                                <div className="w-[30px] relative">
+                                <div className="w-[30px] relative cursor-pointer">
                                     <img
                                         className="w-full"
                                         src="/Images/Icons/pap.svg"
                                         alt="logo"
                                     />
-                                    <span className="block w-1.5 h-1.5 bg-[#1E1E1E] absolute -bottom-3.5 rounded-full left-1/2 -translate-x-1/2" />
                                 </div>
                             </div>
                         </div>

@@ -56,7 +56,7 @@ const Context = (props) => {
                                 onClick={() => {
                                     setOpenCloseVideo(!openCloseVideo);
                                     setVideoSrc(
-                                        "/Videos/Future Goals - Art Challenge - By Sandals Resorts and AFC Ajax.mp4"
+                                        "/Videos/Future-Goals-Art-Challenge-By-Sandals-Resorts-and-AFC-Ajax.mp4"
                                     );
                                 }}
                                 className="w-full overflow-hidden rounded-xl md:rounded-2xl aspect-[3/2] mt-8 sm:mt-10 md:mt-18 lg:mt-24 relative group cursor-pointer"
@@ -305,7 +305,7 @@ const Context = (props) => {
                                 onClick={() => {
                                     setOpenCloseVideo(!openCloseVideo);
                                     setVideoSrc(
-                                        "/Videos/Future Goals - From the ocean, for the future.mp4"
+                                        "/Videos/Future-Goals-From-the-ocean-for-the-future.mp4"
                                     );
                                 }}
                                 className="w-full overflow-hidden rounded-xl md:rounded-2xl aspect-[3/2] mt-8 sm:mt-10 md:mt-18 lg:mt-24 relative group cursor-pointer"
@@ -483,7 +483,7 @@ const Context = (props) => {
                                 onClick={() => {
                                     setOpenCloseVideo(!openCloseVideo);
                                     setVideoSrc(
-                                        "/Videos/Future Goals - From the ocean, for the future.mp4"
+                                        "/Videos/Ajax-x-adidas-Kit-launch.mp4"
                                     );
                                 }}
                                 className="w-full overflow-hidden rounded-xl md:rounded-2xl aspect-[3/2] mt-8 sm:mt-10 md:mt-18 lg:mt-24 relative group cursor-pointer"
@@ -616,22 +616,3 @@ const Context = (props) => {
 };
 
 export default Context;
-
-// import { useParams, useNavigate } from "react-router-dom";
-
-// const DataDetail = () => {
-//     const { id } = useParams();
-//     const navigate = useNavigate();
-//     const currentIndex = data.findIndex((item) => item.id === Number(id));
-
-//     const nextId = currentIndex < data.length - 1 ? data[currentIndex + 1].id : null;
-//     const prevId = currentIndex > 0 ? data[currentIndex - 1].id : null;
-
-//     return (
-//       <div>
-//         <h2>{data[currentIndex].name}</h2>
-//         <button onClick={() => navigate(`/data/${prevId}`)} disabled={!prevId}>Previous</button>
-//         <button onClick={() => navigate(`/data/${nextId}`)} disabled={!nextId}>Next</button>
-//       </div>
-//     );
-//   };

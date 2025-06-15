@@ -129,7 +129,7 @@ const NavBar = () => {
                             src="/Images/Icons/pap.svg"
                             alt="logo"
                         />
-                        <span className="block w-1.5 h-1.5 bg-[#ffffff] absolute -bottom-3.5 rounded-full left-1/2 -translate-x-1/2" />
+                        {/* <span className="block w-1.5 h-1.5 bg-[#ffffff] absolute -bottom-3.5 rounded-full left-1/2 -translate-x-1/2" /> */}
                     </div>
                 </div>
                 <div className="w-auto sm:w-full flex justify-center">

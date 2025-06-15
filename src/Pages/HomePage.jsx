@@ -64,6 +64,7 @@ const HomePage = ({ openCloseVideo, setOpenCloseVideo, setVideoSrc }) => {
                                 autoPlay
                                 loop
                                 muted
+                                playsInline
                                 className="w-full h-full object-cover"
                                 src="/Videos/home-video.mp4"
                             ></video>
@@ -125,7 +126,7 @@ const HomePage = ({ openCloseVideo, setOpenCloseVideo, setVideoSrc }) => {
                                 onClick={() => {
                                     setOpenCloseVideo(!openCloseVideo);
                                     setVideoSrc(
-                                        "/Videos/Future Goals - Home.mp4"
+                                        "/Videos/Future-Goals-Home.mp4"
                                     );
                                 }}
                                 className="w-full lg:w-[55%] overflow-hidden rounded-lg sm:rounded-xl lg:rounded-2xl relative group cursor-pointer"
